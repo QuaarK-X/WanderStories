@@ -1,0 +1,114 @@
+/* body{
+    margin:2.5rem;
+} */
+body h1{
+    color: black;
+    font-weight: bold;
+    /* background-color: #82DBD8; */
+    text-align: center;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    font-size: 8rem;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    width: 80vw;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.blog:hover{
+    box-shadow: 5px 5px 4px 5px #888888;
+}
+#blogcontainer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.blog img{
+    border-radius: 50%;
+    height: 30vh;
+    margin: 2rem;
+}
+.blog .blog-data{
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    
+}
+.blog .blog-data p{
+    text-align: justify;
+    color: rgb(146, 145, 145);
+}
+.blog .blog-data a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: grey;
+}
+.blog .blog-data a:hover{
+   color:black;
+}
+.blog h3{
+    margin-bottom: 1rem;
+}
+.like{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------------------------------footer ---------------------------------------------------------*/
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* padding: 2rem 0rem; */
+    background-color: #f5fbff;
+    width: 100%;
+  }
+  
+  .columns{
+    display: flex;
+    justify-content:center ;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  
+  /* .footerlogo img{
+    width: 6rem;
+  } */
+
+  .footlogo img{
+    width: 12rem;
+  }
+  .footheading{
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .title{
+    color: black;
+    font-size: 1.5rem ;
+    font-weight: bold;
+    
+  }
+  .detail{
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    color: #303030;
+  }
+  
+  .copyright{
+    padding: 2rem;
+    background-color: #f5fbff;
+    color: #525252;
+    text-align: center;
+    font-size: 2rem;
+  }

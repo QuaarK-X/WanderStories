@@ -1,0 +1,126 @@
+/* .h1head{
+    font-size: 4rem;
+    font-weight: bold; */
+    /* text-transform: uppercase; */
+    /* padding: 2rem;
+    
+    text-align: center;
+    width: 100%;
+} */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700&display=swap');
+
+/* body{
+    background-color: black;
+} */
+
+.headinghe{
+    display: flex;
+    padding: 2rem;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.leftline{
+    background-color: gray;
+    width: 7rem;
+    height: 0.1rem;
+
+}
+.mainhead{
+    font-size: 6rem;
+    color: #0a373e;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 128px;
+    font-family: 'League Spartan', sans-serif;
+    /* text-transform: uppercase; */
+}
+.rightline{
+    background-color: gray;
+    width: 59%;
+    height: 0.1rem;
+
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enterysection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    /* border: 2px solid ; */
+  background-color:#2F8F9D;
+  margin: 5rem;
+  padding: 3rem;
+  font-size: 1.5rem;
+  /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+  text-transform: uppercase;
+  width: 80%;
+  display: flex;
+  /* border: 2px solid black; */
+  border-radius: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */  
+  
+}
+
+.form-input{
+    border: 0px;
+    border-radius: 5px;
+    width: 30vw;
+    text-align: left;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin: 2rem;
+    
+}
+
+.btn-div{
+    display: flex;
+}
+
+.btn{
+    background-color:#ffffff;
+    color: black;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font: 2rem;
+    cursor: pointer;
+    /* box-shadow:0 2px 4px rgb(0 0 0 / 50%); */
+    
+}
+
+.btn:hover{
+    background-color: #dfece4;
+}
+
+
+
+
+textarea{
+    /* border: 1px solid var(--blue); */
+    /* border-radius: 5px; */
+    width: 30vw;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.agree{
+    margin-left: 1rem;
+    border: 1px solid var(--blue);
+}
